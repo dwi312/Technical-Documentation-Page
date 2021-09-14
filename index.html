@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Technical Documentation Page</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>
+            JS Documentation
+        </header>
+        <ul>
+            <li>
+                <a href="#Function_declarations" class="nav-link">Function declarations</a>
+            </li>
+            <li>
+                <a href="#if...else_statement" class="nav-link">if...else statement</a>
+            </li>
+            <li>
+                <a href="#While_statement" class="nav-link">While statement</a>
+            </li>
+            <li>
+                <a href="#Data_types" class="nav-link">Data types</a>
+            </li>
+            <li>
+                <a href="#Constants" class="nav-link">Constants</a>
+            </li>
+            <li>
+                <a href="#Variable_scope" class="nav-link">Variable scope</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <div class="main__container">
+            <!-- Section 1 -->
+            <section id="Function_declarations" class="main-section">
+                <header >Function declarations</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt provident cupiditate tempora eum nostrum facilis deleniti nihil vitae, est quaerat at odit perspiciatis. Ipsa fugit sed sapiente magni voluptatem voluptas!</p>
+                <code>
+                    <pre>
+                        function square(number) { return number * number; }
+                    </pre>
+                </code>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, assumenda?</p>
+                <code>
+                    <pre>
+                        return number * number;
+                    </pre>
+                </code>
+            </section>
+            
+            <!-- Section 2 -->
+            <section id="if...else_statement" class="main-section">
+                <header>if...else statement</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt provident cupiditate tempora eum nostrum facilis deleniti nihil vitae, est quaerat at odit perspiciatis. Ipsa fugit sed sapiente magni voluptatem voluptas!</p>
+                <code>
+                    <pre>
+                        if (condition) { statement_1; } else { statement_2; }
+                    </pre>
+                </code>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, impedit!</p>
+                <code>
+                    <pre>
+                        if (condition_1) { statement_1; } else if (condition_2) { statement_2;
+                        } else if (condition_n) { statement_n; } else { statement_last; }
+                    </pre>
+                </code>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolore eum veritatis fugiat temporibus placeat sint ipsum excepturi, aliquid blanditiis voluptatibus ea, ratione odit, nesciunt voluptatum nemo assumenda distinctio nulla.</p>
+                <code>
+                    <pre>
+                        if (condition) { statement_1_runs_if_condition_is_true;
+                            statement_2_runs_if_condition_is_true; } else {
+                            statement_3_runs_if_condition_is_false;
+                            statement_4_runs_if_condition_is_false; }
+                    </pre>
+                </code>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, voluptates.</p>
+                <code>
+                    <pre>
+                        if (x = y) { /* statements here */ 
+                    </pre>
+                </code>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit quas quia non sit voluptates inventore, similique voluptatem! Enim ipsum quam nulla consequuntur reprehenderit officia, consequatur, itaque dolor, autem aliquam voluptatum.</p>
+                <code>
+                    <pre>
+                        if ((x = y)) { /* statements here */ }
+                    </pre>
+                </code>
+                
+            </section>
+            
+            <!-- Section 3 -->
+            <section id="While_statement" class="main-section">
+                <header>While statement</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt provident cupiditate tempora eum nostrum facilis deleniti nihil vitae, est quaerat at odit perspiciatis. Ipsa fugit sed sapiente magni voluptatem voluptas!</p>
+                <code>
+                    <pre>
+                        var n = 0; var x = 0; while (n < 3) { n++; x += n; }
+                    </pre>
+                </code>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, asperiores!</p>
+            </section>
+            
+            <!-- Section 4 -->
+            <section id="Data_types" class="main-section">
+                <header>Data types</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt provident cupiditate tempora eum nostrum facilis deleniti nihil vitae, est quaerat at odit perspiciatis. Ipsa fugit sed sapiente magni voluptatem voluptas!</p>
+                <p>The latest ECMAScript standard defines seven data types:</p>
+                <ul>
+                    Six data types that are primitives
+                    <li>
+                        <p>Boolean. true and false</p>
+                    </li>
+                    <li>
+                        <p>null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</p>
+                    </li>
+                    <li>
+                        <p>undefined. A top-level property whose value is undefined.</p>
+                    </li>
+                    <li>
+                        <p>Number. 42 or 3.14159</p>
+                    </li>
+                    <li>
+                        <p>String. "Howdy"</p>
+                    </li>
+                    <li>
+                        <p>Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.</p>
+                    </li>
+                </ul>
+                <p>and Object</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse porro numquam sint fugiat quidem alias, asperiores similique iure. Illo, autem.</p>
+            </section>
+            
+            <!-- Section 5 -->
+            <section id="Constants" class="main-section">
+                <header>Constants</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt provident cupiditate tempora eum nostrum facilis deleniti nihil vitae, est quaerat at odit perspiciatis. Ipsa fugit sed sapiente magni voluptatem voluptas!</p>
+
+                <code>
+                    <pre>
+                        const PI = 3.14;
+                    </pre>
+                </code>
+                
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti numquam sequi nam. Laboriosam, libero officiis! Perspiciatis incidunt laudantium dolorem deleniti tempora quae deserunt odio eius reiciendis quaerat amet, provident totam.</p>
+                <code>
+                    <pre>
+                        // THIS WILL CAUSE AN ERROR function f() {}; 
+                        
+                        const f = 5; // THIS WILL CAUSE AN ERROR ALSO 
+                        
+                        function f() { 
+                            const g = 5; var g; //statements
+                        }
+                        
+                    </pre>
+                </code>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, animi!</p>
+                <code>
+                    <pre>
+                        const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";
+                    </pre>
+                </code>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, similique? Dicta dolores, odit veniam architecto corrupti at animi rerum autem sapiente ratione fugiat iste voluptates ad culpa, impedit beatae pariatur!</p>
+            </section>
+            
+            <!-- Section 6 -->
+            <section id="Variable_scope" class="main-section">
+                <header>Variable scope</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt provident cupiditate tempora eum nostrum facilis deleniti nihil vitae, est quaerat at odit perspiciatis. Ipsa fugit sed sapiente magni voluptatem voluptas!</p>
+                <code>
+                    <p>
+                        <pre>
+                            if (true) { var x = 5; } console.log(x); // 5
+                        </pre>
+                    </p>
+                </code>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At doloribus unde neque eligendi atque voluptate fuga sunt debitis. Deleniti, iste?</p>
+                    <code>
+                        <pre>
+                            if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
+                            defined
+                        </pre>
+                    </code>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic et beatae ex sed totam repellat.</p>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
